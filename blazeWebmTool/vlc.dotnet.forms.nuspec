@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Vlc.DotNet.Forms</id>
+    <version>3.1.0</version>
+    <title>Vlc.DotNet.Forms</title>
+    <authors>ZeBobo5</authors>
+    <owners>ZeBobo5</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>logo.png</icon>
+    <projectUrl>https://github.com/ZeBobo5/Vlc.DotNet</projectUrl>
+    <description>WinForm control that hosts the audio/video capabilities of the VLC libraries.</description>
+    <copyright>Copyright © Vlc.DotNet 2014-2017</copyright>
+    <tags>vlc media winform</tags>
+    <repository url="https://github.com/ZeBobo5/Vlc.DotNet" />
+    <dependencies>
+      <group targetFramework=".NETFramework3.5">
+        <dependency id="Vlc.DotNet.Core" version="3.1.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Vlc.DotNet.Core" version="3.1.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Vlc.DotNet.Core" version="3.1.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.0">
+        <dependency id="Vlc.DotNet.Core" version="3.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+</package>
